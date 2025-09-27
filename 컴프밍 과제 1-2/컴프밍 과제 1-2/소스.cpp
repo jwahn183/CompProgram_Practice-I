@@ -8,7 +8,7 @@ int main(void)
     int Korean;
 
     printf("이름, 영어점수, 국어점수를 각각 입력하세요: ");
-    scanf("%c %d %d", name, &English, &Korean);
+    scanf("%c %d %d", &name, &English, &Korean);
 
     printf("이름 영어 국어\n");
     printf("     성적 성적\n");
